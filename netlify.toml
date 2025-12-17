@@ -1,0 +1,7 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  # 我们需要设置 Netlify 安装的 Hugo 版本为 0.152.2
+  HUGO_VERSION = "0.152.2"
